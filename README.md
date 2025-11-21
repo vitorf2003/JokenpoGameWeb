@@ -17,6 +17,9 @@
   
 </p>
 
+**Visualização em Tempo Real:** <br>
+https://jokenpogameweb.netlify.app
+
 <br>
 
 <h2>
