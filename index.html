@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jokenpo Game Web</title>
+  </head>
+  <body class="background">
+    <header>
+      <div class="logo">
+        <img src="assets/img/jpglogo.png" alt="Logo do site" class="logo-img"/>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="title-site">Seja Bem-Vindo(a)</h1>
+
+      <div class="instructions-box">
+        <p class="instructions-title">
+          Todas as partidas são realizadas contra a máquina e o jogador<br />
+          assim que clicar no botão poderá jogar 3 vezes seguidas e depois<br> 
+          que finalizar poderá clicar no botão novamente e recomeçar a partida. <br />
+          <br>
+          Cada jogada e mensagem de vitória/derrota/empate é
+          feita através de uma<br />
+          caixa de popup do navegador.
+        </p>
+
+        <p class="instructions">
+          Utilize os seguintes comandos (números) para realizar as jogadas:<br>
+          1 = Pedra<br>
+          2 = Papel<br>
+          3 = Tesoura
+        </p>
+        <br>
+        <p class="instructions-two">
+          Este jogo é simples e não conta com um sistema de placar.<br>
+          Bom Jogo!
+        </p>
+      </div>
+
+      <div class="btn-box">
+        <button class="btn-play" onclick="jokenpoGame()">
+            JOGAR
+        </button>
+      </div>
+
+      <div class="jokenpo">
+        <img src="assets/img/jokenpo.png" alt="Imagem do Jokenpo" class="img-joken">
+      </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-content">© 2025 Jokenpo Game Web.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

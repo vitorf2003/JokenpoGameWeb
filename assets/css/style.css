@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+.background {
+    background-color: #272626;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title-site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jaro", sans-serif;
+    color: #eeecec;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.instructions-box {
+    display: flex;
+    font-size: 25px;
+    color: #eeecec;
+}
+
+.instructions-box, .instructions-title {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.instructions-box, .instructions {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.instructions-two {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-play {
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #eeecec;
+    border: none;
+    padding: 5px 50px;
+    box-shadow: 0 0 10px #DE8900;
+    transition: ease-in-out 300ms;
+}
+
+.btn-play:hover{
+    background-color: #DE8900;
+}
+
+.jokenpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.img-joken {
+    height: 130px;
+    width: 280px;
+}
+
+.footer {
+    position: fixed;
+    padding: 1rem;
+    bottom: 0;
+    background-color: #161616;
+    width: 100%;
+}
+
+.footer-content {
+    text-align: center;
+    color: #eeecec;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+
+   .logo, .logo-img {
+    display: flex;
+    height: 45px;
+    
+   }
+
+   .jokenpo, .img-joken {
+    display: flex;
+    height: 120px;
+   }
+
+   .footer {
+    position: absolute;
+    margin-bottom: 20px;
+   }
+
+   .footer-content {
+    padding-bottom: 20px;
+   }
+
+   .title-site {
+    font-size: 25px;
+   }
+
+   .instructions-title {
+    font-size: 20px;
+   }
+
+   .instructions {
+    font-size: 20px;
+   }
+
+   
+
+}
