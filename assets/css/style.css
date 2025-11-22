@@ -104,6 +104,7 @@ html {
     justify-content: center;
     align-items: center;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .img-joken {
@@ -112,7 +113,6 @@ html {
 }
 
 .footer {
-    position: fixed;
     padding: 1rem;
     bottom: 0;
     background-color: #161616;
@@ -134,21 +134,24 @@ html {
    .logo, .logo-img {
     display: flex;
     height: 45px;
+    margin-top: 20px;
     
    }
 
    .jokenpo, .img-joken {
     display: flex;
     height: 120px;
+    padding-bottom: 20px;
    }
 
    .footer {
-    position: absolute;
-    margin-bottom: 20px;
+    position: relative;
+    margin-bottom: 0;
    }
 
    .footer-content {
     padding-bottom: 20px;
+    font-size: 20px;
    }
 
    .title-site {
@@ -163,6 +166,13 @@ html {
     font-size: 20px;
    }
 
+   .instructions-two {
+    font-size: 20px;
+   }
+
+   .btn-play {
+    margin-bottom: 30px;
+   }
    
 
 }
