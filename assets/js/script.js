@@ -1,7 +1,9 @@
 /**
+ 
  1 = Pedra
  2 = Papel
  3 = Tesoura
+
  */
 
 //FUNÇÃO QUE CONTÉM TODA A LOGICA DO JOGO:
