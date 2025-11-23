@@ -41,8 +41,8 @@ function gameLogic(){
         alert("A Máquina venceu usando Tesoura contra o Jogador que usou Papel.");
         console.log("A Máquina venceu usando Tesoura contra o Jogador que usou Papel.");
     } else {
-        alert("Erro. Reinicie a página.");
-        console.log("Erro. Reinicie a página.");
+        alert("Erro. Tente novamente.");
+        console.log("Erro. Tente novamente.");
     }
 }
 
