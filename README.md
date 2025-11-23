@@ -11,7 +11,7 @@
 </h2>
 
 <p>
-  O Jokenpô Game Web é um aplicativo de navegador simples que interpreta o famoso Pedra, Papel ou Tesoura onde o jogador joga contra a máquina. O jogo não conta com um placar implementado, mas a cada partida o jogador consegue realizar a sua jogada em um total de 3 vezes seguidas. E a interação com o jogo (escolha da jogada e resultado da rodada) é feita através de caixas de diálogo (prompt e alert) do navegador.<br>
+  O Jokenpô Game Web é uma aplicação de navegador simples que implementa o famoso jogo "Pedra, Papel ou Tesoura" onde o jogador enfrenta a máquina. Atualmente o jogo não conta com um placar implementado, mas a cada partida o jogador pode realizar a sua jogada em um total de 3 vezes seguidas. E toda a interação com o jogo (escolha da jogada e resultado da rodada) é feita através de caixas de diálogo (prompt e alert) do próprio navegador.<br>
   <br>
   Este projeto foi concebido e desenvolvido durante o curso de Ciência da Computação na Anhanguera, servindo como um desafio prático para aprimorar minhas habilidades em desenvolvimento front-end.<br>
   
